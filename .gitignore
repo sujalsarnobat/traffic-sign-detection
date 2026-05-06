@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights (large files — store separately or use Git LFS)
+models/*.keras
+models/*.h5
+models/*.pb
+models/training_log.csv
+
+# Dataset (too large for GitHub)
+data/
+!data/.gitkeep
+
+# Outputs
+*.png
+!assets/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
